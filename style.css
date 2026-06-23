@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #161513;
+}
+
+body p{
+    color: #C5C5C5;
+}
+
+.all{
+    flex-direction: column;
+    margin-top: 170px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.projects{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    letter-spacing: 8%;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg, #ff8660, #D5491D);
+    -webkit-background-clip: text;
+    margin-bottom: 50px;
+}
+
+.thumb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 70px;
+}
+
+.thumb img{
+    height: 100%;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.Experience{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    letter-spacing: 8%;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg, #5BADFF, #1373D1);
+    -webkit-background-clip: text;
+    margin-bottom: 50px;
+}
+
+.experience_cards img{
+    height: 100%;
+    width: 50px;
+}
+
+.in_google, .in_apple, .in_meta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.experience_cards h5{
+    color:white;
+    font-size: 30px;
+}
+
+.experience_cards span{
+    font-size: 15px;
+    color: #8491A0;
+}
+
+.experience_cards{
+    margin-bottom: 300px;
+}
+
+.google, .apple, .meta{
+    font-weight: 100;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: light;
+    text-align: justify;
+}
+
+.contact{
+    display: flex;
+}
+
+.contact img{
+    width:5%;
+    height:5%;
+}
+
+footer{
+    margin:0;
+    color: white;
+    background-color: rgb(33, 33, 33);
+    width: 100%;
+    padding: 80px;
+}
+
+footer h5{
+    font-size: 25px;
+}
+
+.foot{
+    margin-left: 25%;
+    margin-right: 25%;
+}
